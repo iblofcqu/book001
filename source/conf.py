@@ -27,3 +27,35 @@ language = 'zh_CN'
 
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
+# myst_enable_extensions = [
+#     "amsmath",
+#     # "attrs_inline",
+#     "colon_fence",
+#     "deflist",
+#     "dollarmath",
+#     "fieldlist",
+#     "html_admonition",
+#     "html_image",
+#     # "inv_link",
+#     # "linkify",
+#     "replacements",
+#     "smartquotes",
+#     "strikethrough",
+#     "substitution",
+#     "tasklist",
+# ]
+
+# sphinx-book-theme 配置
+html_theme_options = {
+    "repository_url": "https://github.com/IBLofCQU/book001",
+    "use_repository_button": True,
+    "home_page_in_toc": True,
+    "show_navbar_depth": 2,
+    "toc_title": project,
+    "show_toc_level": 2
+}
+html_title = project
+
+# html_sidebars = [
+#     ""
+# ]
