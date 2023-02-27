@@ -14,7 +14,8 @@ author = '重庆大学智能建造实验室'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "myst_parser",
+    # "myst_parser",
+    "myst_nb",
 ]
 
 templates_path = ['_templates']
@@ -27,32 +28,23 @@ language = 'zh_CN'
 
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
-# myst_enable_extensions = [
-#     "amsmath",
-#     # "attrs_inline",
-#     "colon_fence",
-#     "deflist",
-#     "dollarmath",
-#     "fieldlist",
-#     "html_admonition",
-#     "html_image",
-#     # "inv_link",
-#     # "linkify",
-#     "replacements",
-#     "smartquotes",
-#     "strikethrough",
-#     "substitution",
-#     "tasklist",
-# ]
+myst_enable_extensions = [
+    "amsmath",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "html_image",
+]
+myst_url_schemes = ("http", "https", "mailto")
 
 # sphinx-book-theme 配置
 html_theme_options = {
     "repository_url": "https://github.com/IBLofCQU/book001",
     "use_repository_button": True,
     "home_page_in_toc": True,
-    "show_navbar_depth": 2,
+    "show_navbar_depth": 3,
     "toc_title": project,
-    "show_toc_level": 2
+    "show_toc_level": 3
 }
 html_title = project
 

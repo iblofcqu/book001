@@ -240,3 +240,5 @@ cython_debug/
 .idea/
 html
 build
+jupyter_execute
+source/1/data/demo_data.csv
