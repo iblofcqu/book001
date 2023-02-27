@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '深度学习再建筑工程中的应用'
+project = '深度学习在建筑工程中的应用'
 copyright = '2023, 重庆大学智能建造实验室'
 author = '重庆大学智能建造实验室'
 
