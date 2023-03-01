@@ -33,6 +33,8 @@ class NeuralNetwork:
         # 激活函数
         self.activation_function = scipy.special.expit
 
+
+class NetWorkWithHandle(NeuralNetwork):
     def train(self, inputs_list, targets_list):
         """
         单组数据训练,对应batch size 的x 和 y 数据集
@@ -123,7 +125,7 @@ class StudyClient:
 
     training_data_list = None
     test_data_list = None
-    network: NeuralNetwork
+    network: NetWorkWithHandle
     output_nodes_num: int
 
     def __init__(self):
@@ -139,7 +141,7 @@ class StudyClient:
         """
         show_csv_line_by_image(self.training_data_list[0])
 
-    def test_first_test_csv_line_by_plt(self):
+    def test_first_test_csv_line(self):
         """
         对测试集中的数据做展示性输出
 
@@ -170,10 +172,11 @@ class StudyClient:
         self.output_nodes_num = 10
         # 设置学习率
         learning_rate = 0.3
-        self.network = NeuralNetwork(input_nodes_num,
-                                     hidden_nodes_num,
-                                     self.output_nodes_num,
-                                     learning_rate)
+        # NeuralNetwork 子类
+        self.network = NetWorkWithHandle(input_nodes_num,
+                                         hidden_nodes_num,
+                                         self.output_nodes_num,
+                                         learning_rate)
 
     def single_epoch_train(self):
         """
