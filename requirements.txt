@@ -1,11 +1,13 @@
-numpy
-pandas
-scipy
+sphinx-autobuild
 myst-nb
 sphinx
 sphinx-book-theme
 myst-parser
 jupyter
+sphinx_design
+numpy
+pandas
+scipy
 matplotlib
 --extra-index-url=https://download.pytorch.org/whl/cu116
 torch

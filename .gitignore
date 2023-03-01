@@ -242,3 +242,4 @@ html
 build
 jupyter_execute
 source/1/data/demo_data.csv
+source/2/data/*

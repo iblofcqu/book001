@@ -16,8 +16,10 @@ author = '重庆大学智能建造实验室'
 extensions = [
     # "myst_parser",
     "myst_nb",
+    "sphinx_design",
+    "sphinx.ext.todo",
 ]
-
+todo_include_todos = True
 templates_path = ['_templates']
 exclude_patterns = []
 

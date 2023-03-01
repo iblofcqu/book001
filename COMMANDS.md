@@ -9,3 +9,9 @@ pip install -r requirements.txt
 ```shell
 sphinx-build -b html source build
 ```
+
+## 实时运行
+
+```shell
+sphinx-autobuild source build
+```
