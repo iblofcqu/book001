@@ -15,4 +15,5 @@ hidden:
 
 2.1/index
 2.2/index
+2.3/index
 ```
