@@ -3,10 +3,8 @@
 """
 import os
 
-import pandas
 import torch
 from torch import nn
-from torch.utils.data import Dataset
 import matplotlib.pyplot as plt
 
 from chapter_2_3_2_02 import MnistDataset
