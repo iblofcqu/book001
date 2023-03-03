@@ -14,8 +14,7 @@ author = '重庆大学智能建造实验室'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    # "myst_parser",
-    "myst_nb",
+    "myst_parser",
     "sphinx_design",
     "sphinx.ext.todo",
 ]
@@ -49,7 +48,3 @@ html_theme_options = {
     "show_toc_level": 3
 }
 html_title = project
-
-# html_sidebars = [
-#     ""
-# ]
