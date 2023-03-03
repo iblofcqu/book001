@@ -241,5 +241,5 @@ cython_debug/
 html
 build
 jupyter_execute
-source/1/data/demo_data.csv
+source/1/data/*
 source/2/data/*
