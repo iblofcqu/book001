@@ -31,7 +31,7 @@
 ::::
 
 
-<div class="show-mid auth-div">作者</div>
+<div class="show-mid"><h2>作者</h2></div>
 <br>
 
 :::::{grid} 3 4 4 4
@@ -110,7 +110,7 @@
 
 :::::
 
-<div class="show-mid contributes">感谢所有的贡献者</div>
+<div class="show-mid"><h2>感谢所有的贡献者</h2></div>
 
 <a href="https://github.com/IBLofCQU/book001/graphs/contributors" >
   <img src="https://contrib.rocks/image?repo=IBLofCQU/book001" />
