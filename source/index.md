@@ -5,8 +5,10 @@
 
 ::::{grid} 1 1 1 2
 :::{grid-item}
-
-![深度学习在建筑工程中的应用](./_static/book.png)
+```{image} ./_static/book.png
+:alt: 深度学习在建筑工程中的应用
+:align: center
+```
 :::
 :::{grid-item}
 <div class="show-right">
@@ -32,7 +34,7 @@
 <div class="show-mid auth-div">作者</div>
 <br>
 
-:::::{grid} 3 5 5 5
+:::::{grid} 3 4 4 4
 
 ::::{grid-item}
 :::{figure-md}
@@ -90,7 +92,6 @@
 
 ::::{grid-item}
 :::{figure-md}
-
 <img src="./_static/authors/HaoLan.jpg" class="auth-header">
 
 兰昊
