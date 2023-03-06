@@ -29,40 +29,24 @@
 ::::
 
 
+<div class="show-mid auth-div">作者</div>
+<br>
 
-:::::::{grid} 2 2 2 2
-::::::{grid-item}
-:columns: 2 2 2 2
-<div class="auth-div">
-作者
-</div>
-
-::::::
-
-::::::{grid-item}
-:columns: 10 10 10 10
-
-:::::{grid} 3
-::::{grid-item}
-:::{figure-md}
-<img src="./_static/authors/test.png" class="auth-header">
-
-齐宏拓
-:::
-::::
+:::::{grid} 3 5 5 5
 
 ::::{grid-item}
 :::{figure-md}
-<img src="./_static/authors/test.png" class="auth-header">
 
-丁尧
+<img src="./_static/authors/XuhongZhou.jpg" class="auth-header">
+
+周绪红
 :::
 ::::
 
 ::::{grid-item}
 :::{figure-md}
 
-<img src="./_static/authors/test.png" class="auth-header">
+<img src="./_static/authors/JiepengLiu.png" class="auth-header">
 
 刘界鹏
 :::
@@ -70,12 +54,21 @@
 
 ::::{grid-item}
 :::{figure-md}
+<img src="./_static/authors/HongtuoQi.jpg" class="auth-header">
 
-<img src="./_static/authors/test.png" class="auth-header">
-
-周绪红
+齐宏拓
 :::
 ::::
+
+::::{grid-item}
+:::{figure-md}
+<img src="./_static/authors/YaoDing.jpg" class="auth-header">
+
+丁尧
+:::
+::::
+
+
 
 ::::{grid-item}
 :::{figure-md}
@@ -89,16 +82,38 @@
 ::::{grid-item}
 :::{figure-md}
 
-<img src="./_static/authors/test.png" class="auth-header">
+<img src="./_static/authors/MingchunLi.jpg" class="auth-header">
 
 李明春
 :::
 ::::
+
+::::{grid-item}
+:::{figure-md}
+
+<img src="./_static/authors/HaoLan.jpg" class="auth-header">
+
+兰昊
+:::
+::::
+
+::::{grid-item}
+:::{figure-md}
+
+<img src="./_static/authors/ChuanXu.jpg" class="auth-header">
+
+徐川
+:::
+::::
+
+
 :::::
 
-::::::
+<div class="show-mid contributes">感谢所有的贡献者</div>
 
-:::::::
+<a href="https://github.com/IBLofCQU/book001/graphs/contributors" >
+  <img src="https://contrib.rocks/image?repo=IBLofCQU/book001" />
+</a>
 
 
 

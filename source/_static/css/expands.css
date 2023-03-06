@@ -16,12 +16,8 @@
 }
 
 .auth-div {
-    writing-mode: vertical-lr;
-    writing-mode: tb-lr;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
+    font-size: 30px;
+}
+.contributes {
     font-size: 30px;
 }
