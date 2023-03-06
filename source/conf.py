@@ -48,3 +48,7 @@ html_theme_options = {
     "show_toc_level": 3
 }
 html_title = project
+
+html_css_files = [
+    'css/expands.css',
+]
