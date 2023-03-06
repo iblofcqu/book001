@@ -42,10 +42,12 @@ myst_url_schemes = ("http", "https", "mailto")
 html_theme_options = {
     "repository_url": "https://github.com/IBLofCQU/book001",
     "use_repository_button": True,
-    "home_page_in_toc": True,
+    "home_page_in_toc": False,
     "show_navbar_depth": 3,
     "toc_title": project,
-    "show_toc_level": 3
+    "show_toc_level": 3,
+    "use_sidenotes": True,
+    "use_issues_button": True,
 }
 html_title = project
 

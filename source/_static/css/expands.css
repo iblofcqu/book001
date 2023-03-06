@@ -1,3 +1,27 @@
-.show-mid{
+.show-mid {
     text-align: center;
+}
+
+.show-left {
+
+    text-align: left;
+}
+
+.show-right {
+    text-align: right;
+}
+
+.auth-header {
+    border-radius: 50%;
+}
+
+.auth-div {
+    writing-mode: vertical-lr;
+    writing-mode: tb-lr;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 30px;
 }

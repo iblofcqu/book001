@@ -1,30 +1,51 @@
 # 《深度学习在建筑工程中的应用》
 
-<div class="show-mid">
-<h1>《深度学习在建筑工程中的应用》</h1>
-</div>
+<br>
+<br>
 
-::::{grid} 2
+::::{grid} 1 1 1 2
 :::{grid-item}
+
 ![深度学习在建筑工程中的应用](./_static/book.png)
 :::
 :::{grid-item}
-```{todo}
-待完善介绍
-```
+<div class="show-right">
+<div>
+《深度学习在建筑工程中的应用》
+</div>
+
+<div>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介
+</div>
+
+<div>绍介绍介绍介绍介绍介绍介绍</div>
+
+<div>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</div>
+
+<div>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</div>
+
+</div>
+
 :::
 ::::
 
-<div class="show-mid">
-<h2>作者</h2>
+
+
+:::::::{grid} 2 2 2 2
+::::::{grid-item}
+:columns: 2 2 2 2
+<div class="auth-div">
+作者
 </div>
 
+::::::
+
+::::::{grid-item}
+:columns: 10 10 10 10
 
 :::::{grid} 3
-
 ::::{grid-item}
 :::{figure-md}
-<img src="./_static/authors/test.png">
+<img src="./_static/authors/test.png" class="auth-header">
 
 齐宏拓
 :::
@@ -32,7 +53,7 @@
 
 ::::{grid-item}
 :::{figure-md}
-<img src="./_static/authors/test.png">
+<img src="./_static/authors/test.png" class="auth-header">
 
 丁尧
 :::
@@ -41,7 +62,7 @@
 ::::{grid-item}
 :::{figure-md}
 
-<img src="./_static/authors/test.png">
+<img src="./_static/authors/test.png" class="auth-header">
 
 刘界鹏
 :::
@@ -50,7 +71,7 @@
 ::::{grid-item}
 :::{figure-md}
 
-<img src="./_static/authors/test.png">
+<img src="./_static/authors/test.png" class="auth-header">
 
 周绪红
 :::
@@ -59,7 +80,7 @@
 ::::{grid-item}
 :::{figure-md}
 
-<img src="./_static/authors/test.png">
+<img src="./_static/authors/PenkunLiu.jpg" class="auth-header">
 
 刘鹏鲲
 :::
@@ -68,12 +89,18 @@
 ::::{grid-item}
 :::{figure-md}
 
-<img src="./_static/authors/test.png">
+<img src="./_static/authors/test.png" class="auth-header">
 
 李明春
 :::
 ::::
 :::::
+
+::::::
+
+:::::::
+
+
 
 <div class="show-mid">
 <h2>引用</h2>
