@@ -107,6 +107,14 @@
 :::
 ::::
 
+::::{grid-item}
+:::{figure-md}
+
+<img src="./_static/authors/YuWang.jpg" class="auth-header">
+
+王煜
+:::
+::::
 
 :::::
 
