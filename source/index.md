@@ -3,32 +3,24 @@
 <br>
 <br>
 
-::::{grid} 1 1 1 2
-:::{grid-item}
+:::::{grid} 1 1 1 2
+::::{grid-item}
 ```{image} ./_static/book.png
 :alt: 深度学习在建筑工程中的应用
 :align: center
 ```
-:::
-:::{grid-item}
-<div class="show-right">
-<div>
-《深度学习在建筑工程中的应用》
-</div>
-
-<div>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介
-</div>
-
-<div>绍介绍介绍介绍介绍介绍介绍</div>
-
-<div>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</div>
-
-<div>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</div>
-
-</div>
-
-:::
 ::::
+
+::::{grid-item}
+:::{TODO}
+
+书籍简介
+
+:::
+
+::::
+
+:::::
 
 
 <div class="show-mid"><h2>作者</h2></div>
