@@ -38,6 +38,10 @@ sphinx-autobuild source build
 
 该命令比较吃性能,请酌情选择.
 
+## 数据集准备
+
+各章节数据集均放在 章节目录`data`下,需要参照各个章节内容下载准备数据集
+
 ## 其他注意事项
 
 1. Docstring 风格选择 `Google`
