@@ -110,6 +110,15 @@
 ::::{grid-item}
 :::{figure-md}
 
+<img src="./_static/authors/YumengMa.jpg" class="auth-header">
+
+马玉锰
+:::
+::::
+
+::::{grid-item}
+:::{figure-md}
+
 <img src="./_static/authors/YuWang.jpg" class="auth-header">
 
 王煜
