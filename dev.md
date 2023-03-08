@@ -38,3 +38,6 @@ sphinx-autobuild source build
 
 该命令比较吃性能,请酌情选择.
 
+## 其他注意事项
+
+1. Docstring 风格选择 `Google`

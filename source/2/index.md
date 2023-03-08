@@ -17,4 +17,5 @@ hidden:
 2.2/index
 2.3/index
 2.4/index
+references
 ```
