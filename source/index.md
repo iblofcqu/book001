@@ -127,6 +127,16 @@
 
 :::::
 
+<img src="./_static/authors/GanLuo.png" class="auth-header">
+
+罗干
+:::
+::::
+
+::::{grid-item}
+:::{figure-md}
+
+
 <div class="show-mid"><h2>感谢所有的贡献者</h2></div>
 
 <a href="https://github.com/IBLofCQU/book001/graphs/contributors" >
