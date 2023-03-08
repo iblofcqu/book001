@@ -18,6 +18,11 @@
 .auth-div {
     font-size: 30px;
 }
+
 .contributes {
     font-size: 30px;
+}
+
+p {
+    text-indent: 2em;
 }
