@@ -4,6 +4,7 @@ pandas
 scipy
 scikit-learn
 matplotlib
+tensorboard
 --extra-index-url=https://download.pytorch.org/whl/cu116
 torch
 torchvision
