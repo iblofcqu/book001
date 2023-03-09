@@ -65,4 +65,5 @@ hidden:
 3.1/index
 3.2
 3.3/index
+references
 ```
