@@ -10,19 +10,6 @@ from chapter_3_3_1_02 import dataset_sizes
 
 
 def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
-    """
-    定义训练过程
-
-    Args:
-        model: 待训练的模型
-        criterion: 损失函数
-        optimizer: 优化函数
-        scheduler: 学习率调整
-        num_epochs:
-
-    Returns:
-        model
-    """
     if not os.path.exists("model"):
         os.mkdir("model")
     model_save_path = os.path.join("model", "best.pt")
@@ -30,7 +17,6 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
     # 创建"logs"文件夹，并以"训练开始日期-时间"为子文件名存储训练数据
     time_path = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
     writer = tensorboard.SummaryWriter(os.path.join('logs', time_path))
-
     # 初始化最优准确率
     best_acc = 0.0
     for epoch in range(num_epochs):

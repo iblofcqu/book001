@@ -14,7 +14,6 @@ from chapter_3_3_3_02 import EarlyStopping
 def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
     if not os.path.exists("model"):
         os.mkdir("model")
-
     model_save_path = os.path.join("model", "best.pt")
 
     # 创建"logs"文件夹，并以"训练开始日期-时间"为子文件名存储训练数据
