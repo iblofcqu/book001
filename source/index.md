@@ -117,6 +117,15 @@
 :::
 ::::
 
+::::{grid-item}
+:::{figure-md}
+
+<img src="./_static/authors/YunzhuLiao.jpg" class="auth-header">
+
+廖耘竹
+:::
+::::
+
 :::::
 
 <div class="show-mid"><h2>感谢所有的贡献者</h2></div>
