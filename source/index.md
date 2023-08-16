@@ -57,7 +57,7 @@
 
 ::::{grid-item}
 :::{figure-md}
-<img src="./_static/authors/YaoDing.jpg" class="auth-header">
+<img src="./_static/authors/YaoDing.png" class="auth-header">
 
 丁尧
 :::
