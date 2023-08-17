@@ -13,5 +13,6 @@ hidden:
 4.1
 4.2/index
 4.3/index
+references
 ```
 
